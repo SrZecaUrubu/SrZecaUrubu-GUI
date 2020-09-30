@@ -1,0 +1,71 @@
+--Feito Por ZecaUrubu
+
+--Use com Cuidado :)
+
+local Impostor = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local ImpostorGUI = Instance.new("TextButton")
+local AutoTaskV2 = Instance.new("TextButton")
+local Signature = Instance.new("TextLabel")
+
+Impostor.Name = "Impostor"
+Impostor.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = Impostor
+main.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+main.BorderColor3 = Color3.fromRGB(44, 44, 44)
+main.Position = UDim2.new(0.0548340566, 0, 0.0910815969, 0)
+main.Size = UDim2.new(0, 267, 0, 305)
+main.Active = true
+main.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = main
+Title.Active = true
+Title.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Title.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Title.Position = UDim2.new(0, 0, -0.00217187591, 0)
+Title.Size = UDim2.new(0, 267, 0, 54)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Impostor GUI"
+Title.TextColor3 = Color3.fromRGB(255, 193, 5)
+Title.TextSize = 50.000
+
+ImpostorGUI.Name = "Impostor GUI"
+ImpostorGUI.Parent = main
+ImpostorGUI.BackgroundColor3 = Color3.fromRGB(255, 193, 5)
+ImpostorGUI.Position = UDim2.new(0.125378594, 0, 0.261737704, 0)
+ImpostorGUI.Size = UDim2.new(0, 200, 0, 50)
+ImpostorGUI.Font = Enum.Font.GothamBold
+ImpostorGUI.Text = "Impostor GUI"
+ImpostorGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+ImpostorGUI.TextSize = 25.000
+ImpostorGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SrZecaUrubu/SrZecaUrubu-GUI/master/Impostor%20GUI%20Zeca", true))()
+end)
+
+AutoTaskV2.Name = "Auto Task V2"
+AutoTaskV2.Parent = main
+AutoTaskV2.BackgroundColor3 = Color3.fromRGB(255, 193, 5)
+AutoTaskV2.Position = UDim2.new(0.125378594, 0, 0.551274836, 0)
+AutoTaskV2.Size = UDim2.new(0, 200, 0, 50)
+AutoTaskV2.Font = Enum.Font.GothamBold
+AutoTaskV2.Text = "AutoTask V2"
+AutoTaskV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoTaskV2.TextSize = 25.000
+AutoTaskV2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SrZecaUrubu/SrZecaUrubu-GUI/master/Impostor%20Zeca%20A.T", true))()
+end)
+
+Signature.Name = "Signature"
+Signature.Parent = main
+Signature.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Signature.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Signature.Position = UDim2.new(0.292134821, 0, 0.904918015, 0)
+Signature.Size = UDim2.new(0, 109, 0, 29)
+Signature.Font = Enum.Font.SourceSansBold
+Signature.Text = " Zeca Urubu"
+Signature.TextColor3 = Color3.fromRGB(0, 0, 0)
+Signature.TextSize = 34.000
